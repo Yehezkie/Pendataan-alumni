@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailBerita">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Heading"
+        android:textSize="36dp"
+        android:id="@+id/heading"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo et tortor a dictum. Quisque odio nibh, lacinia vel sapien ut, ultrices tincidunt nibh. Suspendisse in ligula erat. Quisque et convallis eros. Morbi finibus tempor arcu, at egestas ex efficitur eu. Nunc sed risus egestas, euismod odio blandit, ultrices sapien. Nam feugiat justo urna, id sodales velit viverra non."
+        android:id="@+id/isi"
+        />
+
+</RelativeLayout>

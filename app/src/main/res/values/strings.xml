@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aplikasi Pendataan Alumni</string>
+    <string name="title_activity_menu_utama">MenuUtama</string>
+    <string name="title_home">Home</string>
+    <string name="title_berita">Berita</string>
+    <string name="title_profile">Profile</string>
+
+
+</resources>

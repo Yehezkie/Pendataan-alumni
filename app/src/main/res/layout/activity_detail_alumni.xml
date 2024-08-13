@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailAlumni"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/detailnim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nim"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailtempat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tempat"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailtanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tanggal"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alamat"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailagama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="agama"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailtlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tlp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailmasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="masuk"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detaillulus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lulus"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailpekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pekerjaan"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/detailjabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jabatan"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</LinearLayout>

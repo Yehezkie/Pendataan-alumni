@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahData"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtNim"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="nim"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="nama"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtTempat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="tempat lahir"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="tanggal lahir"
+        android:textSize="16sp"
+        android:inputType="datetime"
+        />
+
+    <EditText
+        android:id="@+id/edtAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="alamat"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtAgama"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="agama"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtTlp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Tlp/Hp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="tahun masuk"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtLulus"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="tahun lulus"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="pekerjaan"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/edtJabatan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="jabatan"
+        android:textSize="16sp"
+        />
+
+
+    <Button
+        android:id="@+id/actionSimpan"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary"
+        android:text="simpan"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
